@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#581DFB"
+    tools:context=".affichage_mi.affichage_l3info">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/sd" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_snc"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:text="Télécharger nouvelle affichage"
+        android:layout_centerInParent="true"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#581DFB"
+    tools:context=".les_annees_mi">
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+
+         <ImageView
+             android:id="@+id/web_dev"
+             android:layout_width="match_parent"
+             android:layout_height="233dp"
+             android:src="@drawable/web_developer" />
+
+         <TextView
+             android:layout_marginTop="15dp"
+             android:layout_below="@+id/web_dev"
+             android:gravity="center"
+             android:textColor="#fff"
+             android:textStyle="bold"
+             android:textSize="20dp"
+             android:text="Choississiez votre anneé universitaire"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+
+             <GridLayout
+                 android:columnOrderPreserved="false"
+                 android:alignmentMode="alignMargins"
+                 android:columnCount="1"
+                 android:rowCount="3"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_rowWeight="1"
+                     android:layout_columnWeight="1"
+                     android:layout_margin="12dp"
+                     app:cardCornerRadius="12dp"
+                     app:cardElevation="12dp">
+
+                     <ScrollView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:gravity="center"
+                             android:orientation="vertical"
+                             android:padding="16dp">
+
+                             <Button
+                                 android:id="@+id/btn_trun_mi"
+                                 android:textSize="20dp"
+                                 android:textStyle="bold"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="10dp"
+                                 android:background="@drawable/btn_mi"
+                                 android:text="L1 TRUNC COMMUN MI"
+                                 android:textColor="#fff" />
+
+                             <Button
+                                 android:id="@+id/btn_l2_info"
+                                 android:textSize="20dp"
+                                 android:textStyle="bold"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="20dp"
+                                 android:background="@drawable/btn_snc"
+                                 android:text="L2 INFORMATIQUE"
+                                 android:textColor="#FFFFFF" />
+
+                             <Button
+                                 android:id="@+id/btn_l3_info"
+                                 android:textSize="20dp"
+                                 android:textStyle="bold"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="20dp"
+                                 android:background="@drawable/btn_mi"
+                                 android:text="L3 INFORMATIQUE"
+                                 android:textColor="#fff" />
+                             <Button
+                                 android:id="@+id/l2_math"
+                                 android:textSize="20dp"
+                                 android:textStyle="bold"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="20dp"
+                                 android:background="@drawable/btn_snc"
+                                 android:text="L2 MATHEMATIQUE"
+                                 android:textColor="#fff" />
+                             <Button
+                                 android:id="@+id/l3_math"
+                                 android:textSize="20dp"
+                                 android:textStyle="bold"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="20dp"
+                                 android:background="@drawable/btn_mi"
+                                 android:text="L3 MATHEMATIQUE"
+                                 android:textColor="#fff" />
+
+
+                         </LinearLayout>
+                     </ScrollView>
+
+                 </androidx.cardview.widget.CardView>
+
+
+             </GridLayout>
+
+
+         </LinearLayout>
+     </LinearLayout>
+
+ </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#581DFB"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".module_math_info.L3info_module">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:text="SEMESTRE 1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <GridLayout
+                android:columnOrderPreserved="false"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:rowCount="12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/algo1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/source_code_48px"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="PROGRAMMATION LOGIQUE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/analyse_1"
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/se"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="COMPILATION"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/algebre_1"
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/alebre"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="INTERFACE HOMME MACHINE"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text="@string/description_algo"
+                                android:textColor="#000"
+                                android:textSize="10dp" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/structure_1"
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/stat"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="PROBABILITE ET STATISTIQUE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/electro_1"
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/system"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="SYSTEME D'EXPLOITATION 2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phisique_1"
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/tl"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="GENIE LOGICIEL 2 "
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phisique_1"
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/poo"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="PROGRAMMATION LINEARE "
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:text="SEMESTRE 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <GridLayout
+                android:columnOrderPreserved="false"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:rowCount="12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/structutr"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="CRYPROGRAPHIE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/alebre"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="APLICATIONS MOBILES"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/bdd"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="ADM DES BASES DE DONNEES"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/resaux"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="SECURITE INFORMATIQUE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="-5dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:paddingLeft="10dp"
+                            android:src="@drawable/englich"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"/>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:paddingRight="15dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:text="REDACTION SCIENTIFIQUE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:paddingLeft="20dp"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:text="@string/description_algo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

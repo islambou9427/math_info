@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#7E68FD"
+    tools:context=".Start_Activity">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/textView"
+               android:layout_width="381dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="30dp"
+               android:text="Bienvenus Dans Vorte App Universitaire"
+               android:textAlignment="center"
+               android:textColor="#FFF"
+               android:textSize="25dp"
+               android:textStyle="bold" />
+           <com.google.android.gms.ads.AdView
+               xmlns:ads="http://schemas.android.com/apk/res-auto"
+               android:id="@+id/adView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentBottom="true"
+               ads:adSize="BANNER"
+               ads:adUnitId="ca-app-pub-3076708121503108/2799116985">
+           </com.google.android.gms.ads.AdView>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="287dp"
+               android:layout_gravity="center"
+               android:src="@drawable/manager" />
+
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Choississiez Votre Filière Svp"
+               android:textAlignment="center"
+               android:textColor="#FFF"
+               android:textSize="20dp"
+               android:textStyle="italic"
+               />
+
+           <Button
+               android:layout_marginTop="24dp"
+               android:layout_gravity="center"
+               android:id="@+id/btn_mi"
+               android:textColor="#FFF"
+               android:layout_width="265dp"
+               android:layout_height="40dp"
+               android:background="@drawable/btn_mi"
+               android:text="Mathématique et Informatique"
+               />
+
+           <Button
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"
+               android:id="@+id/btn_sm"
+               android:layout_width="265dp"
+               android:layout_height="40dp"
+               android:background="@drawable/btn_snc"
+               android:text="Science De La matière"
+               android:textColor="#FFF"
+               />
+           <LinearLayout
+               android:layout_marginTop="10dp"
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:id="@+id/fb_link"
+                   android:padding="10dp"
+                   android:src="@drawable/facebook_old_48px"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <ImageView
+                   android:id="@+id/insta_link"
+                   android:padding="10dp"
+                   android:src="@drawable/instagram_48px"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <ImageView
+                   android:id="@+id/gmail_link"
+                   android:padding="10dp"
+                   android:src="@drawable/gmail_48px"
+                   android:layout_width="60dp"
+                   android:layout_height="wrap_content"/>
+               <ImageView
+                   android:id="@+id/linkidn_link"
+                   android:padding="10dp"
+                   android:src="@drawable/linkedin_48px"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <ImageView
+                   android:id="@+id/get_link"
+                   android:src="@drawable/github_32px"
+                   android:layout_width="40dp"
+                   android:layout_height="50dp"/>
+
+
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+
+</LinearLayout>

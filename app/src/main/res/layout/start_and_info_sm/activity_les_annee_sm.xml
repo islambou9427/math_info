@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#581DFB"
+    tools:context=".les_annee_sm">
+
+    <ImageView
+        android:id="@+id/labo"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:src="@drawable/laboratory_analyst" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/labo"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Choississiez votre anneé universitaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <GridLayout
+            android:layout_marginTop="250dp"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_trun_sm"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/btn_mi"
+                            android:text="L1 TRUNC COMMUN SM"
+                            android:textColor="#fff" />
+
+                        <Button
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/btn_snc"
+                            android:text="L2 PHISIQUE"
+                            android:textColor="#FFFFFF" />
+
+                        <Button
+
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/btn_mi"
+                            android:text="L3 PHISIQUE"
+                            android:textColor="#fff" />
+                        <Button
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/btn_snc"
+                            android:text="L2 CHIMIQUE"
+                            android:textColor="#fff" />
+                        <Button
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/btn_mi"
+                            android:text="L3 CHIMIQUE"
+                            android:textColor="#fff" />
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
